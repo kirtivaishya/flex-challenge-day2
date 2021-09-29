@@ -3,11 +3,12 @@
     margin: 0px;
 }
 nav {
-/* width: 100%; */
+ /* width: 100%;  */
 display: flex;
 flex-direction: row;
- justify-content: flex-end; 
-align-items: flex-end;  
+justify-content: space-evenly; 
+
+align-items:stretch;  
 border: 5px solid black;
 background-color: black;
 color: #FFF;
@@ -17,6 +18,8 @@ color: #FFF;
  main{
       /* height:300%; 
       width: 100; */
+      width : 90%;
+      height: 100%;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -30,6 +33,7 @@ color: #FFF;
  }
 
  main > div {
+    width : 60%;
     border: 5px solid black;
     justify-content:space-between;
     display: flex;
@@ -39,6 +43,7 @@ color: #FFF;
  }
  main > div >div{
     border: 5px solid black; 
+    height: 100%;    
   }
    /* .layout{
     border: 5px solid black;
